@@ -16,7 +16,7 @@ function getLecture() {
 }
 
 function lectureMe() {
-  return responsiveVoice.speak(currentLecture.lecture, "Russian Female");
+  return responsiveVoice.speak(currentLecture.lecture, 'Russian Female');
 }
 
 $(document).ready(function () {
@@ -26,3 +26,4 @@ $(document).ready(function () {
   });
   $('.translation').append('<h4>' + currentLecture.translation + '</h1>');
 });
+//# sourceMappingURL=bot.js.map
