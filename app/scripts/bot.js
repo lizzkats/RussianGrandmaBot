@@ -27,5 +27,5 @@ $(document).ready(function(){
   $('button').click(function(){
     lectureMe()
   })
-  $('.translation').append('<h1>' + currentLecture.translation + '</h1>')
+  $('.translation').append('<h4>' + currentLecture.translation + '</h1>')
 })
