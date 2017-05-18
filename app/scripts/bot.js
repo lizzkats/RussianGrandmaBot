@@ -18,7 +18,7 @@ function getRandomInt(min, max) {
   }
 
   function lectureMe(){
-    return responsiveVoice.speak(currentLecture.lecture, 'Russian Female');
+    return responsiveVoice.speak(currentLecture.lecture, "Russian Female");
   }
 
 
